@@ -1,0 +1,46 @@
+.navbar-toggler {
+    border: 1px solid #eee;
+    width: 40px;
+    right: 0;
+    position: relative;
+    height: 40px;
+    padding: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    cursor: pointer;
+  }
+
+  .icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 2px;
+    border: 2px solid #aaa;
+    border-radius: 2px;
+    margin: 5px;
+    transition: all 0.5s ease;
+  }
+  .icon2 {
+    margin-top: 15px;
+  }
+  .icon3 {
+    margin-top: 25px;
+  }
+  .icon1.dis1 {
+    transform: rotate(-30deg);
+    top: 12px;
+  }
+  .icon2.dis2 {
+    transform: rotate(30deg);
+    top: 0px;
+  }
+
+  .icon3.dis3 {
+    top: 0px;
+    opacity: 0.5;
+    visibility: hidden;
+    transition: all 0.2s ease;
+  }
